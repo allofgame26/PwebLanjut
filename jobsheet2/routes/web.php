@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PhotoController;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
@@ -61,3 +62,5 @@ Route::get('/',[HomeController::class,'index']);
 Route::get('/about',[AboutController::class,'about']);
 
 Route::get('articles/{id}',[ArticleController::class,'articles']);
+
+Route::get('/greeting',[WelcomeController::class,'greeting']);
