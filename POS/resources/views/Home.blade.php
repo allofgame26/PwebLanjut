@@ -16,8 +16,8 @@
 <body>
     <ul>
         <li><a href="{{route('Home')}}">Home</a></li>
-        <li><a href="news.asp">Penjualan</a></li>
-        <li><a href="contact.asp">Product</a></li>
+        <li><a href="{{route('penjualan')}}">Penjualan</a></li>
+        <li><a href="{{route('product')}}">Product</a></li>
         <li><a href="{{route('user')}}">User</a></li>
       </ul>
 </body>

@@ -7,6 +7,7 @@
     <title>Product</title>
 </head>
 <body>
-    
+    <h1>Halaman Produk</h1>
+    <h2>{{$category}}</h2>
 </body>
 </html>
